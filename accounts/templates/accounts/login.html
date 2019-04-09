@@ -9,7 +9,10 @@
         <h5 class="login-box-title">Sign in</h5>
         <div class="login-icon-try">
           <p class="lgoin-icon">
-            <a class="login-button login-button-git">
+            <a
+              href="{% url 'social:begin' 'github' %}"
+              class="login-button login-button-git"
+            >
               <span class="icon">
                 <i class="fa fa-github" style="color: white"> </i>
               </span>
